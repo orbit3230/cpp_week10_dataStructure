@@ -7,6 +7,9 @@ class List : public LinkedList {
 public:
     List();
     ~List();
+    void insert(int index, int value);
+    int get(int index);
+    void remove(int index);
 };
 
 #endif
